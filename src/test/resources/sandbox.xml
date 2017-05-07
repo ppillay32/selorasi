@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Core-Regression" parallel="methods" thread-count="10">
+	<listeners>
+		<listener class-name="com.orasi.utils.debugging.Screenshot" />
+	</listeners>
+	<parameter name="browserUnderTest" value="firefox" />
+	<parameter name="environment" value="staging" />
+	<parameter name="runLocation" value="local" />
+	<parameter name="browserVersion" value="52" />
+	<parameter name="operatingSystem" value="windows 10" />
+ 
+	<test name="TestRestService" parallel="methods" thread-count="20">
+		<classes>
+			<class name="com.orasi.api.restServices.TestRestService" />
+		</classes>
+	</test>
+	<test name="TestRestResponse" parallel="methods" thread-count="20">
+		<classes>
+			<class name="com.orasi.api.restServices.TestRestResponse" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
