@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Orasi Selenium Core Project
 
 This is the homepage for the Orasi Selenium Core libraries. These libraries contain both original code created by Orasi developers
@@ -130,3 +131,6 @@ These resources are being used directly, or have been extended upon.
 * [Sauce Labs 2.1.18](https://github.com/saucelabs/sauce-java): Facilitates the use of using the Sauce Lab VM farm as a remote Selenium grid on which to execute tests.
 * [Apache HttpClient 4.3.1](https://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/index.html) Used to transmit and receive SOAP and REST message requests and responses.
 * [Allure Reports for TestNG 1.4.13](http://allure.qatools.ru/): Generates high level executive reporting
+=======
+# selorasi
+>>>>>>> refs/remotes/origin/master
